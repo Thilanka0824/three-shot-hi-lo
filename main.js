@@ -4,8 +4,8 @@ console.log("I'm thinking of a number between 1 and 100. Try to guess it.")
 let n = Number(prompt("> "));
 
 let myNum = Math.ceil(Math.random() * 100)
-
 let count = 0
+
 while (count < 2 && n !== myNum) { //if the count is less than 2 AND the input does not equal my random number
 
     if (n === myNum) {

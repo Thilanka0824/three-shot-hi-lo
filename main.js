@@ -3,7 +3,7 @@ const prompt = require('prompt-sync')({ sigint: true });
 console.log("I'm thinking of a number between 1 and 100. Try to guess it.")
 let n = Number(prompt(">"));
 
-let myNum = Math.ceil(Math.random() * 2)
+let myNum = Math.ceil(Math.random() * 100)
 
 let count = 0
 while (count < 2 && n !== myNum) {
